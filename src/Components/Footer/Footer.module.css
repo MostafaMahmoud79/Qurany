@@ -1,0 +1,42 @@
+.footer {
+  background-color: var(--bgnavFooter);
+  color: var(--text-color);
+  padding: 20px 0;
+  border-top: 2px solid var(--active);
+  text-align: center;
+}
+
+.quote {
+  font-size: 1.2rem;
+  font-family: 'Cairo', sans-serif;
+  margin-top: 10px;
+}
+
+.socialIcons {
+  margin-top: 15px; 
+}
+
+.icon {
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.icon i {
+  transition: all 0.3s; 
+}
+
+.icon:first-child {
+  color: rgb(13, 81, 137);
+}
+
+.icon:nth-child(2) {
+  color: #0A66C2; 
+}
+
+.icon:last-child {
+  color: rgb(5, 112, 55);
+}
+
+.icon:hover i {
+  transform: translateY(5px) scale(1.1);
+}
