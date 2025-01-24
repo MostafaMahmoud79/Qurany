@@ -7,10 +7,10 @@ export default function Footer() {
     <footer className={`${style.footer}`}>
       <div className="d-flex justify-content-around align-items-center py-3">
         <div>
-          <p className='m-0'>by. Mostafa Mahmoud</p>
+          <p className='m-0'>by Mostafa Mahmoud</p>
         </div>
         <div>
-          <p className='m-0'>&#9400; Quran</p>
+          <p className='m-0'>&#9400; Qurany</p>
         </div>
       </div>
       <div className={`${style.quote} text-center`}>
